@@ -1,0 +1,49 @@
+
+body { 
+    background: url(../images/cover.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Avenir Next LT Pro', Arial;
+    font-weight: normal;
+    color: #4c4849;
+    // height: 100vh;
+    // overflow: hidden;
+    transition: background 0.75s ease-in-out;
+  }
+
+  h1,h2,h3,h4{
+    font-family: 'Avenir Next LT Pro', Arial;
+    font-weight: bold;
+  }
+
+  h1{
+     font-size: 2.40rem !important;
+  }
+  h2{
+    font-size: 1.8rem;
+  }
+h4{
+  font-size: 1.3rem;
+}
+  .form-control{
+      border: 1px solid #4c4849;
+      border-radius: 0px;
+  }
+
+  #clock-el{
+       width: 100%; 
+       left: 0;
+  }
+  .card{
+    word-wrap: normal !important; 
+  }
+  #card-con-wrap{
+    p{
+      img{
+        width: 100% !important;
+        margin-bottom: 10px;
+      }
+    }
+  }

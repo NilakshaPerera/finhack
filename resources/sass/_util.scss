@@ -1,0 +1,57 @@
+
+.center-div{
+    margin: 0 auto;
+}
+
+.margin-b-5{
+    margin-bottom: 5px;
+}
+
+.margin-b-10{
+    margin-bottom: 10px;
+}
+
+.margin-b-15{
+    margin-bottom: 15px;
+}
+
+.margin-b-20{
+    margin-bottom: 20px;
+}
+
+
+.margin-t-5{
+    margin-top: 5px;
+}
+
+.margin-t-10{
+    margin-top: 10px;
+}
+
+.margin-t-15{
+    margin-top: 15px;
+}
+
+.margin-t-20{
+    margin-top: 20px;
+}
+
+@keyframes MoveUpDown {
+    0% {
+        transform: translate3d(0, -50px, 0)
+    }
+    50% {
+        transform: translate3d(0, 0, 0)
+    }
+    100% {
+        transform: translate3d(0, -50px, 0)
+    }
+}
+
+.moveUpDown {
+    animation: MoveUpDown 1.5s ease-in-out infinite;
+}
+
+
+
+

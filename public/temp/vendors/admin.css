@@ -1,0 +1,21 @@
+.table-thumb{
+    height: 50px;
+}
+
+.preview-application-forms{
+    padding: 10px 10px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.center-margin {
+    margin: 0 auto;
+    float: none !important
+}
+
+.story-pane{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

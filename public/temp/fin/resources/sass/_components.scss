@@ -1,0 +1,213 @@
+main {
+    // height: 100vh;
+
+    .logo {
+
+        img{
+            width: 70px;
+            height: auto;
+        }
+        @include mobile(x-sm) {
+            text-align: center;
+        }
+    }
+
+    .foot-logo {
+        text-align: right;
+
+        img{
+            width: 170px;
+            height: auto;
+        }
+        @include mobile(x-sm) {
+            text-align: center;
+        }
+    }
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 70px;
+    padding: 40px;
+}
+
+.bottom-btn {
+    margin-top: -75px;
+
+    img {
+        width: 150px;
+        height: auto;
+    }
+}
+
+.acca-btn {
+    font-family: 'Space Ranger Regular',Arial;
+    color: $color-2;
+    font-size: 18px;
+    padding: 5px 30px;
+    background-image: -webkit-linear-gradient(bottom, #f4f1ee, #fff);
+    background-image: linear-gradient(bottom, #f4f1ee, #fff);
+    position: relative;
+    border-radius: 30px;
+    -moz-box-shadow: 0 5px 20px #ddd, 0 5px 4px #999 ;
+	-webkit-box-shadow: 0 5px 20px #ddd, 0 5px 4px #999 ;
+	box-shadow:0 5px 20px #ddd, 0 5px 4px #999 ;
+    &:hover {
+        color: #000000;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h0 {
+    font-size: 2.65rem;
+}
+
+.round-input {
+    padding: 0.375rem 0.95rem !important;
+    border-radius: 20px;
+}
+
+.round-button {
+    border-radius: 10px;
+}
+
+.red-button {
+    background-color: $red;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    font-weight: 900;
+    border: solid darken($red, 10%);
+    border-width: thin;
+}
+
+.red-button:hover {
+    background-color: darken($red, 10%);
+}
+
+
+.header-nav {
+    width: 100%;
+}
+
+body.default {
+
+    background-color: #ffffff;
+
+}
+
+
+body.present-in-progress {}
+
+body.present-complete {}
+
+.custom-modal {
+    text-align: center;
+    z-index: 1050;
+
+    .modal-header {
+        color: #000;
+        border-bottom: none;
+    }
+
+    .modal-body {
+        padding-bottom: 0 !important;
+        color: #000;
+    }
+
+    .modal-footer {
+        border-top: none;
+
+        button,
+        a {
+            margin: 0 auto;
+        }
+    }
+}
+.custom-modal1{
+    z-index: 1060;
+    .modal-body {
+        padding-bottom: 20px !important;
+        color: #000;
+       
+    }
+
+     .modal-footer {
+         padding-top: 0;
+        border-top: none;
+     }
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+.fade-enter {
+    opacity: 0
+}
+
+.conf-dialog {
+
+    .dg-main-content {
+        border-radius: 0.3rem;
+        padding: 1rem;
+
+        .dg-content-body {
+            border-bottom: none;
+            padding-bottom: 0px;
+
+            .dg-content {
+                margin-bottom: 0.5rem;
+                color: #000;
+                text-align: center;
+            }
+        }
+
+        .dg-content-footer {
+            text-align: center;
+            padding: 1rem 0 0;
+        }
+
+        .dg-btn {
+            color: $color-2;
+            padding: 5px 20px;
+            background-image: -webkit-linear-gradient(bottom, #f4f1ee, #fff);
+            background-image: linear-gradient(bottom, #f4f1ee, #fff);
+            position: relative;
+            border-radius: 30px;
+            -moz-box-shadow: 0 5px 20px #ddd, 0 5px 4px #999 ;
+            -webkit-box-shadow: 0 5px 20px #ddd, 0 5px 4px #999 ;
+            box-shadow: 0 5px 20px #ddd, 0 5px 4px #999 ;
+            &:hover {
+             color: #000000;
+    }
+        }
+    }
+}
